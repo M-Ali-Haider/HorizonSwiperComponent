@@ -53,7 +53,7 @@ function TeamSlider() {
           <img src={imager} alt=""/>
           <div className="slide-inner-absolute">
             <div className="si-heading">Hi, I'm Hamza</div>
-            <div className="si-location"><img src={LocationLogo} alt="" srcset="" />Islamabad</div>
+            <div className="si-location"><img src={LocationLogo} alt="" srcSet="" />Islamabad</div>
             <div className="si-position">UI/UX Designer</div>
           </div>
           <div className="slide-inner-number">1</div>
@@ -65,7 +65,7 @@ function TeamSlider() {
           <img src={imager} alt=""/>
           <div className="slide-inner-absolute">
             <div className="si-heading">Hi, I'm Abdullah</div>
-            <div className="si-location"><img src={LocationLogo} alt="" srcset="" />Islamabad</div>
+            <div className="si-location"><img src={LocationLogo} alt="" srcSet="" />Islamabad</div>
             <div className="si-position">Web Developer</div>
           </div>
           <div className="slide-inner-number">2</div>
@@ -76,7 +76,7 @@ function TeamSlider() {
           <img src={imager} alt=""/>
           <div className="slide-inner-absolute">
             <div className="si-heading">Hi, I'm Ali</div>
-            <div className="si-location"><img src={LocationLogo} alt="" srcset="" />Islamabad</div>
+            <div className="si-location"><img src={LocationLogo} alt="" srcSet="" />Islamabad</div>
             <div className="si-position">Web Developer</div>
           </div>
           <div className="slide-inner-number">3</div>
