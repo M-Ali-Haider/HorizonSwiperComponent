@@ -22,7 +22,7 @@ function TeamSlider() {
     <Swiper
       allowTouchMove={false}
       watchSlidesProgress={true}  
-      speed={800}
+      speed={900}
       navigation={true}
       pagination={{ clickable: true }}
       className="swiper"
