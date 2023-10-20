@@ -21,7 +21,7 @@ function TeamSlider() {
   return (
     <Swiper
       watchSlidesProgress={true}  
-      speed={1000}
+      speed={800}
       navigation={true}
       pagination={{ clickable: true }}
       className="swiper"
