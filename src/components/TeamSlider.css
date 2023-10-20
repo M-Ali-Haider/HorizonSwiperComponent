@@ -133,6 +133,7 @@
 .fadeInUp-animation{
   animation: fadeInUp;
   animation-duration: 1s;
+  animation-delay: 500ms;
 }
 
 .swiper-slide-active .slide-inner-absolute{
