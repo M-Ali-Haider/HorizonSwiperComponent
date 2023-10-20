@@ -20,6 +20,7 @@ function TeamSlider() {
   const interleaveOffset = 0.5;
   return (
     <Swiper
+      allowTouchMove={false}
       watchSlidesProgress={true}  
       speed={800}
       navigation={true}
