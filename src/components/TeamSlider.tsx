@@ -27,10 +27,10 @@ function TeamSlider() {
       className="swiper"
       onProgress={(swiper)=>{
             for (let i = 0; i < swiper.slides.length; i++) {
-                let slideProgress= swiper.slides[i].progress;
+                let slideProgress= (swiper.slides[i] as any).progress;
                 let innerOffset = swiper.width * interleaveOffset;
                 let innerTranslate = slideProgress * innerOffset;
-                swiper.slides[i].querySelector('.slide-inner').style.transform = `translate3d(${innerTranslate}px, 0, 0)`;
+                (swiper.slides[i].querySelector('.slide-inner') as HTMLElement).style.transform = `translate3d(${innerTranslate}px, 0, 0)`;
             }
            
       }}
@@ -42,7 +42,7 @@ function TeamSlider() {
       onSetTransition={(swiper,speed)=>{
         for (let i = 0; i < swiper.slides.length; i++) {
             swiper.slides[i].style.transition = speed + 'ms';
-            swiper.slides[i].querySelector('.slide-inner').style.transition = speed + 'ms';
+            (swiper.slides[i].querySelector('.slide-inner')as HTMLElement).style.transition = speed + 'ms';
         }
       }}>
         
