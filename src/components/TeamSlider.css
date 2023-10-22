@@ -73,6 +73,25 @@
     font-family: inter;
     font-weight: 700;
   }
+  .cv-container{
+    position: absolute;
+    top: 20%;
+    right: -1%;
+    width: 56px;
+    height: 75px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-image: url('./CVborder.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    font-weight: 100;
+    font-size: 15px;
+    cursor: pointer;
+  }
   .swiper-pagination{
     text-align: start;
     padding-left: 5%;

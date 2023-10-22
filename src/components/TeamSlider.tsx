@@ -23,7 +23,7 @@ function TeamSlider() {
       className="swiper"
       onProgress={(swiper)=>{
             for (let i = 0; i < swiper.slides.length; i++) {
-                let slideProgress= (swiper.slides[i] as any).progress;
+                let slideProgress= swiper.slides[i].progress;
                 let innerOffset = swiper.width * interleaveOffset;
                 let innerTranslate = slideProgress * innerOffset;
                 (swiper.slides[i].querySelector('.slide-inner') as HTMLElement).style.transform = `translate3d(${innerTranslate}px, 0, 0)`;
@@ -52,6 +52,9 @@ function TeamSlider() {
             <div className="si-position">UI/UX Designer</div>
           </div>
           <div className="slide-inner-number">1</div>
+          <div className="cv-container">
+            CV
+          </div>
         </div>
         
       </SwiperSlide>
@@ -64,6 +67,9 @@ function TeamSlider() {
             <div className="si-position">Web Developer</div>
           </div>
           <div className="slide-inner-number">2</div>
+          <div className="cv-container">
+            CV
+          </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -75,6 +81,9 @@ function TeamSlider() {
             <div className="si-position">Web Developer</div>
           </div>
           <div className="slide-inner-number">3</div>
+          <div className="cv-container">
+            CV
+          </div>
         </div>
       </SwiperSlide>
     </Swiper>
