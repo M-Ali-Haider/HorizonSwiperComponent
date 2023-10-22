@@ -23,7 +23,7 @@ function TeamSlider() {
       className="swiper"
       onProgress={(swiper)=>{
             for (let i = 0; i < swiper.slides.length; i++) {
-                let slideProgress= swiper.slides[i].progress;
+                let slideProgress= (swiper.slides[i] as any).progress;
                 let innerOffset = swiper.width * interleaveOffset;
                 let innerTranslate = slideProgress * innerOffset;
                 (swiper.slides[i].querySelector('.slide-inner') as HTMLElement).style.transform = `translate3d(${innerTranslate}px, 0, 0)`;
