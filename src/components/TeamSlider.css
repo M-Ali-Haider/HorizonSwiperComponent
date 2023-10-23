@@ -81,7 +81,7 @@
     height: 75px;
     border-top-left-radius: 100%;
     border-bottom-left-radius: 100%;
-    background-image: url('./CVborder.webp');
+    background-image: url('../assets/CVborder.webp');
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;

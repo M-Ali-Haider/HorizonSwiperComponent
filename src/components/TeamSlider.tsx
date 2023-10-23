@@ -4,8 +4,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import SwiperCore from 'swiper/core';
-import imager from './SwiperImager.webp';
-import LocationLogo from './siLocation.svg';
+import imager from '../assets/SwiperImager.webp';
+import LocationLogo from '../assets/siLocation.svg';
 import './TeamSlider.css';
 
 SwiperCore.use([Navigation, Pagination]);
