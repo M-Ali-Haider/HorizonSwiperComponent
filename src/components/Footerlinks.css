@@ -1,0 +1,23 @@
+.footerlinkslist{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.footerlinkslist ul h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.footerlinkslist ul li{
+    font-size: 13px;
+    text-transform: capitalize;
+    list-style: none;
+    margin-bottom: 2px;
+    color: rgba(255, 255, 255, 0.902);
+    cursor: pointer;
+}
+
+
+.footerlinkslist ul li:hover{
+    color: rgba(235, 234, 234, 0.719);
+}
