@@ -1,7 +1,7 @@
 .swiper {
     border-top-left-radius:25px;
     border-top-right-radius: 25px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin-bottom: 50px;
   }
