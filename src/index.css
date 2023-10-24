@@ -6,3 +6,8 @@ body, html, #root {
 body{
     background-color: black;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
