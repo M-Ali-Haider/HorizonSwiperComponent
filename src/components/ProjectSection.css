@@ -1,9 +1,9 @@
 .project-section-container{
-    width: 100%;
-    height: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 100%;
     display: flex;
     gap: 5px;
-    margin-bottom: 50px;
 }
 .project-unit{
     flex: 1;

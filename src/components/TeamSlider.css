@@ -1,8 +1,7 @@
 .swiper {
     border-top-left-radius:25px;
     border-top-right-radius: 25px;
-    height: 98vh!important;
-    margin-bottom: 50px;
+    height: 100%;
   }
   .swiper-slide {
     text-align: center;
