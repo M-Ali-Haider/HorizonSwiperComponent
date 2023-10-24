@@ -1,5 +1,5 @@
-import TeamSlider from "./components/TeamSlider";
 import ProjectSection from "./components/ProjectSection";
+import TeamSlider from "./components/TeamSlider";
 import './App.css';
 function App(){
   return(
