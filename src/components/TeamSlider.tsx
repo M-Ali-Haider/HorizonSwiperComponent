@@ -86,6 +86,7 @@ function TeamSlider() {
           </div>
         </div>
       </SwiperSlide>
+      <div className="swiper-bottomer"></div>
     </Swiper>
     
   );

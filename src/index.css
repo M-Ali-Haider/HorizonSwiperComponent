@@ -10,6 +10,13 @@ body{
     background-color: black;
     color: white;
 }
+.first-div{
+    height: 105%;
+}
+.second-div{
+    height: 105%;
+    margin-top: -2.5%;
+}
 
 ::-webkit-scrollbar {
     display: none;
