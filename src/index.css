@@ -8,6 +8,7 @@ body, html, #root {
 }
 body{
     background-color: black;
+    color: white;
 }
 
 ::-webkit-scrollbar {
