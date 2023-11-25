@@ -1,4 +1,4 @@
-import "./HCW.css";
+import "../styles/HCW.css";
 
 const HCWCard = (props: { title: string; disc: string }) => {
   return (

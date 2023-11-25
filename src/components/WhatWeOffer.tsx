@@ -1,4 +1,4 @@
-import "./WhatWeOffer.css";
+import "../styles/WhatWeOffer.css";
 import OfferGridCard from "./OfferGridCard";
 import Icons from "./importsvgs";
 

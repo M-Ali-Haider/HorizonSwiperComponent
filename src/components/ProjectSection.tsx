@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ProjectSection.css';
+import '../styles/ProjectSection.css';
 import proj1 from '../assets/SwiperImager.webp';
 
 function ProjectSection() {

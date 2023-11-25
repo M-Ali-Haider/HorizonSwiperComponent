@@ -1,4 +1,4 @@
-import "./Footerlinks.css";
+import "../styles/Footerlinks.css";
 
 export const FooterLinks = (props: { head: string; footerlinks: any }) => {
   return (

@@ -2,7 +2,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import { useTexture } from "@react-three/drei";
 import img from "../assets/globe.webp";
-import "./GLobe.css";
+import "../styles/GLobe.css";
 
 
 const Box = () => {

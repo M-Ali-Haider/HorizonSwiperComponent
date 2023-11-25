@@ -1,5 +1,5 @@
 import HCWCard from "./HCWCard";
-import "./HowCanWe.css";
+import "../styles/HowCanWe.css";
 
 const HowCanWe = () => {
   const carddata = [

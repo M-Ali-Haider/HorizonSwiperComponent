@@ -1,4 +1,4 @@
-import "./OfferCard.css";
+import "../styles/OfferCard.css";
 
 const OfferGridCard = (props: { head: string; icon: any; descr:string }) => {
   return (

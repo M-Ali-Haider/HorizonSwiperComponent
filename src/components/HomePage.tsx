@@ -1,6 +1,6 @@
 import Globe from "./Globe";
 import Header from "./Header";
-import "./HomePage.css";
+import "../styles/HomePage.css";
 
 const HomePage = () => {
   return (

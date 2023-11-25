@@ -6,7 +6,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import SwiperCore from 'swiper/core';
 import imager from '../assets/SwiperImager.webp';
 import LocationLogo from '../assets/siLocation.svg';
-import './TeamSlider.css';
+import '../styles/TeamSlider.css';
 
 SwiperCore.use([Navigation, Pagination]);
 

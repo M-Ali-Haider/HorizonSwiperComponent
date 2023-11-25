@@ -9,6 +9,7 @@ function App(){
     <>
       <HomePage />
       <HowCanWe />
+      
       <TeamSlider/>
       <ProjectSection />
       <Footer />

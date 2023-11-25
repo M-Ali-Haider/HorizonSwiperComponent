@@ -1,4 +1,4 @@
-import "./Header.css";
+import "../styles/Header.css";
 import optionsvg from "../assets/option.svg";
 
 const Header = () => {
