@@ -1,0 +1,22 @@
+.HomePage{
+    height: 100vh;
+
+
+    scroll-snap-align: start;
+}
+.HomePage h1{
+    width: 60%;
+    font-size: 90px;
+    color: white;
+    margin-top: 90px;
+    margin-left: 140px;
+}
+
+
+@media screen and (max-width:700px) {
+    .HomePage h1{
+        width: 80%;
+        font-size: 60px;
+        margin-left: 30px;
+    }
+}

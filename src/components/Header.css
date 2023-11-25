@@ -1,0 +1,108 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    height: 100px;
+}
+.Header h2{
+    font-size: 26px;
+    color: white;
+}
+.linksheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.linksheader ul{
+    margin-right: 20px;
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.linksheader ul li{
+    position: relative;
+    cursor: pointer;
+}
+.linksheader ul li::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    bottom: -3px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: 0.2s;
+    border-bottom: 1px solid white;
+}
+.linksheader ul li:hover::before{
+    transform: scale(1);
+}
+.contactbtn{
+    height: 40px;
+    width: 90px;
+    background-color: pink;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contactbtn:hover{
+    background-color: rgb(253, 204, 212);
+}
+.mobilebtn{
+    display: none;
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    position: relative;
+}
+.mobilebtn > img{
+    transform: scale(1.5);
+}
+.mobilebtn:hover > .btncontent{
+    transform: scale(1);
+    right: 70%;
+}
+.btncontent{
+    position: absolute;
+    transform-origin: top;
+    transform: scale(0);
+    transition: 0.2s;
+    top: 100%;
+    right: 70%;
+    height: 160px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+.btncontent > ul{
+  display: flex;
+  width: 100px;
+  height: 85%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 10px;
+  color: black;
+}
+@media screen and (max-width: 700px){
+    .mobilebtn{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Header h2{
+        font-size: 18px;
+    }
+    .linksheader > ul{
+        display: none;
+    }
+    .contactbtn{
+        display: none;
+    }
+}

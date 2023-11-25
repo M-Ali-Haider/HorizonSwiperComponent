@@ -1,0 +1,44 @@
+.HCWCard{
+    max-width: 300px;
+    min-width: 250px;
+    border: 1px solid white;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+
+    flex-basis: 33.333333%;
+    margin: 25px 5px;
+
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+}
+.HCWCard h1{
+    font-size: 16px;
+}
+.HCWCard p{
+    font-size: 14px;
+    width: 95%;
+}
+.HCWCard .imgHCW{
+    background-color: #0d0d0d92;
+    transform: translateY(-50%);
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+.imgHCW img{
+    height: 50px;
+    width: 50px;
+}
