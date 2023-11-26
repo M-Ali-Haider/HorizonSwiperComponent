@@ -29,7 +29,7 @@ const Box = () => {
 const Globe = () => {
   return (
     <div id="canvas-conta">
-      <Canvas camera={{ position: [-5, 1, 4], fov: 40 }}>
+      <Canvas camera={{ position: [-5, 1, 4], fov: 40 }} className="responsive-canvas">
         <spotLight position={[4, 3, 1]} intensity={50} />
         <directionalLight position={[5, 5, 3]} intensity={0.6} />
         <Box />

@@ -1,19 +1,18 @@
 .HomePage{
-    height: 100vh;
-
-
+    height: 120%;
     scroll-snap-align: start;
+    box-sizing: border-box;
+    position: relative;
+    top: 0%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
 }
-.HomePage h1{
-    width: 60%;
-    font-size: 90px;
-    color: white;
-    margin-top: 90px;
-    margin-left: 140px;
-}
-
-
 @media screen and (max-width:700px) {
+    .Homepage{
+        height: 100%;
+    }
     .HomePage h1{
         width: 80%;
         font-size: 60px;

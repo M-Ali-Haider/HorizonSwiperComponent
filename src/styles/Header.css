@@ -1,9 +1,11 @@
 .Header{
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
     align-items: center;
-    height: 100px;
+    height: 10%;
+    padding: 0px 15px;
 }
 .Header h2{
     font-size: 26px;
