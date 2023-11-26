@@ -9,6 +9,7 @@
 }
 @media screen and (max-width:700px){
     #canvas-conta{
+        display: none;
         transform: translateX(-50%);
     }
 }
