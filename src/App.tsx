@@ -12,7 +12,6 @@ function App(){
       <Header />
       <HomePage />
       <HowCanWe />
-      
       <TeamSlider/>
       <ProjectSection />
       <Footer />

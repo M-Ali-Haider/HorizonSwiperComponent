@@ -1,5 +1,5 @@
 .HomePage{
-    height: 120%;
+    height: 100%;
     scroll-snap-align: start;
     box-sizing: border-box;
     position: relative;
@@ -10,9 +10,6 @@
     align-items: center;
 }
 @media screen and (max-width:700px) {
-    .Homepage{
-        height: 100%;
-    }
     .HomePage h1{
         width: 80%;
         font-size: 60px;
